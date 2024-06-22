@@ -5,61 +5,86 @@ body {
     margin: auto;
 }
 h1 {
-    text-align: center;
+    text-align: left;
+    color: white;
+    
 
 }
-.logo a {
-    text-align: center;
-}
 .header {
-    overflow: hidden;
-    background-color: aqua;
     padding: 20px;
+    background-image: url(https://t3.ftcdn.net/jpg/06/44/18/96/360_F_644189664_PgAT9UcQvYKSXS6YzTY75BW0eezbGCbO.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    object-fit: contain;
 }
 .header a{
     float: right;
-    color: black;
-    text-align: center;
+    color: white;
+    text-align: right;
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    text-align: left;
+  
+    
 
 }
-.header a. logo{
+ header a .logo {
     font-size: 25px;
     font-weight: bold;
+    text-align: left;
+    float: left;
 }
 .header a:hover {
-    background-color: #292525;
-    color: aquamarine;
+    background-color: black;
+    color: white;
 }
 .header a.active{
    
-    color: aliceblue;
+    color: white;
 }
-.header-right{
-    float: right;
-}
+
+
 .header a {
-    float: none;
+    float: right;
     display: block;
-    text-align: ;
-}
-.header-right{
-    float: none;
-}
-h2 {
     text-align: center;
+    
 }
- .scroll-container {
-    background-color:white;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 10px;
+h2{
+    color: white;
+    font-weight: lighter;
+    font-size: 200%;
+}
+
+.scroll-container{
+    display: flex;
+    padding: 100px;
+    margin: 5px;
+    border: 200px;
+
 
 }
-.scroll-container img {
-    padding: 1px;
+.scroll-container p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: left;
+    font-weight: lighter;
+}
+.offer h3{
+    text-align: left;
+    color: black;
+    display: ;
+    padding: 20px;
+    font-size: 190%;
+    margin: 50px;
+}
+.offer p{
+    display: flex;
+    padding: 20px;
+    font-size: 160%;
+    margin: 50px;
 }
