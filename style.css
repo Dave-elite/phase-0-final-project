@@ -3,6 +3,7 @@ body {
     height: 100%;
     padding: 1px;
     margin: auto;
+    background-color: beige;
 }
 h1 {
     text-align: left;
@@ -10,9 +11,12 @@ h1 {
     
 
 }
+img {
+    width: 120px;
+}
 .header {
     padding: 20px;
-    background-image: url(https://t3.ftcdn.net/jpg/06/44/18/96/360_F_644189664_PgAT9UcQvYKSXS6YzTY75BW0eezbGCbO.jpg);
+    background-image: url(https://assets.franke.com/is/image/frankemanagement/Franke_CS_Ratio_4x3_Coffee_Machines_Latte_Art?qlt=85&ts=1693398750301&dpr=off);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -73,11 +77,18 @@ h2{
     color: white;
     text-align: left;
     font-weight: lighter;
+    
+}
+.offer-container{
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    
 }
 .offer h3{
     text-align: left;
     color: black;
-    display: ;
+    
     padding: 20px;
     font-size: 190%;
     margin: 50px;
@@ -88,3 +99,148 @@ h2{
     font-size: 160%;
     margin: 50px;
 }
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin: auto;
+    max-width: max-content;
+    
+
+}
+.card{
+    width: 325px;
+    background-color:white;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+    margin-bottom: auto;
+    
+}
+.card img{
+    width: 100%;
+    height: auto;
+
+}
+.card-content{
+    padding: 16px;
+
+}
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    color: #666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .btn{
+display: inline-block;
+padding: 8px 16px;
+background-color: #333;
+text-decoration: none;
+border-radius: 4px;
+margin-top: 16px;
+color: #fff;
+}
+.oops{
+    padding: 0px;
+    margin: 0px;
+    line-height: normal;
+    width: normal;
+}
+
+.containerr{
+    border: 0px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 50px;
+    display: flex;
+    float: left;
+
+}
+.containerr p{
+    padding: 20px;
+}
+.containerr ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.containerr img{
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 20px;
+    margin: auto;
+    float: none;
+    display: block;
+
+}
+.containerr span{
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 3px;
+    margin: 4px;
+
+}
+.footer{
+    background-color: none;
+    width: 100%;
+    line-height: 100px;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+}
+ h4{
+    text-align: center;
+    
+
+}
+.maps{
+    padding: 0px;
+    margin-top: auto;
+    border-radius: 10px;
+    margin: 0px;
+    width: 100%;
+    height: 600px;
+    border-radius: 50px;
+    align-content: center;
+   
+    
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #183d8d;
+    color: white;
+    align-content: center;
+    padding: 40px;
+    margin: auto;
+    border-radius: 50px;
+  }
+  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 40px;
+    border-radius: 50px;
+  }
