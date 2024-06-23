@@ -99,6 +99,10 @@ h2{
     font-size: 160%;
     margin: 50px;
 }
+.test{
+    font-size: 50px;
+    text-align: center;
+}
 .card-container{
     display: flex;
     justify-content: center;
@@ -198,8 +202,10 @@ color: #fff;
     border-radius: 30px;
     align-items: center;
 }
- h4{
+ .loc{
     text-align: center;
+    font-size: 50px;
+    
     
 
 }
@@ -214,6 +220,10 @@ color: #fff;
     align-content: center;
    
     
+}
+.soc{
+    text-align: center;
+    font-size: 50px;
 }
 
 .fa {
@@ -242,5 +252,13 @@ color: #fff;
     background: #55ACEE;
     color: white;
     padding: 40px;
+    border-radius: 50px;
+  }
+  .fa-instagram{
+    background: none;
+    color:red;
+    align-content: center;
+    padding: 40px;
+    margin: auto;
     border-radius: 50px;
   }
